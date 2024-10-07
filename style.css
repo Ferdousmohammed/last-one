@@ -166,6 +166,12 @@ nav {
   background-image: url("img/developer.gif") !important;
 }
 
+.project_img002 {
+  background-image: url("img/01.jpg") !important;
+}
+
+
+
 .project_img2 {
   background-image: url("img/pro4.png");
 }
@@ -613,9 +619,7 @@ nav {
   }
 }
 
-.ferdous {
-  text-align: center;
-}
+
 
 /* contact */
 
@@ -659,4 +663,306 @@ nav {
 }
 .project_heading a {
   text-decoration: none;
+}
+
+.pic img {
+  border-radius: 50%;
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  object-fit: cover;
+}
+
+
+.project_heading a {
+  color: #007bff; /* Blue color for links */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.social a {
+  color: #333;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social a:hover {
+  color: #007bff; /* Change icon color on hover */
+}
+
+.team-member {
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow to member card */
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+/* General container styling for the new section */
+.main-offer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-member-section, .custom-offer-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Section Styles */
+.custom-team-member {
+  display: flex;
+  gap: 20px;
+}
+
+.custom-team-member .custom-pic {
+  flex-shrink: 0;
+}
+
+.custom-team-member .custom-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Circular image */
+}
+
+.custom-member-info h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.custom-member-info strong {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.custom-member-info p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.custom-social a {
+  margin-right: 10px;
+  color: #555;
+  font-size: 25px;
+  transition: color 0.4s;
+}
+
+.custom-social a:hover {
+  color: #007bff;
+}
+
+/* Offer Section Styling */
+.custom-offer-section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.custom-offer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-offer-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.custom-offer-list li:before {
+  content: '\2022'; /* Unicode for bullet point */
+  color: #007bff;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 500px) {
+  .main-offer-section {
+    grid-template-columns: 1fr; /* Stack sections vertically */
+  }
+
+  .team-member-section, .custom-offer-section {
+    margin-bottom: 20px;
+  }
+}
+.textAl {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px; /* Adjust space between image and text */
+}
+
+.team-member .pic {
+  max-width: 120px; /* Controls the size of the image */
+  border-radius: 50%; /* Makes the image circular */
+  overflow: hidden;
+}
+
+.team-member .pic img {
+  width: 100%; /* Ensure the image fills the container */
+  height: auto;
+}
+
+.team-member .member-info {
+  flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+  .team-member {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .team-member .pic {
+    max-width: 100px; /* Resize image on smaller screens */
+    margin-bottom: 10px;
+  }
+
+  .team-member .member-info h4 {
+    font-size: 1.2rem; /* Adjust font size on smaller screens */
+  }
+
+  .team-member .member-info p {
+    font-size: 0.9rem; /* Adjust font size on smaller screens */
+  }
+
+  .team-member .social a {
+    font-size: 20px; /* Resize social icons */
+  }
+}
+
+
+/* Footer Styles */
+.footer {
+  background: #222; /* Dark background for footer */
+  padding: 40px 0;
+  color: #fff;
+}
+
+.footer .footer-top {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #444;
+}
+
+.footer .sitename {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer .footer-about p {
+  line-height: 1.8;
+  color: #bbb;
+}
+
+.footer .footer-contact p {
+  margin: 0;
+  color: #ddd;
+}
+
+.footer .footer-contact strong {
+  color: #fff;
+}
+
+.footer .footer-links h4,
+.footer .footer-contact h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer .footer-links ul li i {
+  color: #00aaff; /* Accent color for icons */
+  margin-right: 8px;
+}
+
+.footer .footer-links ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer .footer-links ul li a:hover {
+  color: #00aaff; /* Link hover color */
+}
+
+.footer .social-links a {
+  display: inline-block;
+  background: #555;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background 0.3s ease;
+}
+
+.footer .social-links a:hover {
+  background: #00aaff; /* Hover effect for social icons */
+}
+
+.footer .copyright {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer .credits {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer .credits a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.footer .credits a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .footer .footer-top {
+    text-align: center;
+  }
+
+  .footer .footer-about,
+  .footer .footer-links,
+  .footer .footer-contact {
+    margin-bottom: 30px;
+  }
+
+  .footer .social-links {
+    justify-content: center;
+  }
+
+  .footer .social-links a {
+    margin-right: 5px;
+  }
 }
