@@ -170,8 +170,6 @@ nav {
   background-image: url("img/01.jpg") !important;
 }
 
-
-
 .project_img2 {
   background-image: url("img/pro4.png");
 }
@@ -619,8 +617,6 @@ nav {
   }
 }
 
-
-
 /* contact */
 
 @media only screen and (max-width: 1201px) {
@@ -672,7 +668,6 @@ nav {
   object-fit: cover;
 }
 
-
 .project_heading a {
   color: #007bff; /* Blue color for links */
   font-weight: bold;
@@ -704,7 +699,8 @@ nav {
   padding: 20px;
 }
 
-.team-member-section, .custom-offer-section {
+.team-member-section,
+.custom-offer-section {
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
@@ -772,7 +768,7 @@ nav {
 }
 
 .custom-offer-list li:before {
-  content: '\2022'; /* Unicode for bullet point */
+  content: "\2022"; /* Unicode for bullet point */
   color: #007bff;
   font-size: 20px;
   position: absolute;
@@ -786,7 +782,8 @@ nav {
     grid-template-columns: 1fr; /* Stack sections vertically */
   }
 
-  .team-member-section, .custom-offer-section {
+  .team-member-section,
+  .custom-offer-section {
     margin-bottom: 20px;
   }
 }
@@ -840,7 +837,6 @@ nav {
     font-size: 20px; /* Resize social icons */
   }
 }
-
 
 /* Footer Styles */
 .footer {
